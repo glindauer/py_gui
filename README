@@ -1,0 +1,29 @@
+After installing git, you need to tell it who you are, and the email used to connect your account:
+git config -global user.name "Your Name Here"
+git config -global user.email "your_email@youremail.com"
+
+After that, to connect to an existing repository:
+1) If you haven't made the local directory, make it, then enter
+git init
+to prepare it for connecting to a repository.
+2) git remote add origin https://github.com/gittest1040/Hello-World.git
+
+Now you are ready to 
+git pull origin master (to pull the master copy at the origin branch?)
+git add UPDATED_FILENAME ; git commit -m 'added_new_files'
+
+The above locally updated the edited UPDATED_FILENAME (or added it if it is new). Now it is ready to be merged by others if they are connected to this local drive.
+
+If, however, they are connecting to a remote repository, such as github.com, another step is needed: git push origin master, in order to update the repository; then the others would need to use git pull again to get it.
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                               ~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
